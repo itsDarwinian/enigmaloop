@@ -5,8 +5,9 @@
 body {background-color: #ede8e9; font-family: monospace; font-size: 16px}
 h1   {color: grey;}
 #main {text-align: center;}
+#test {width: 100%}
 .resultzone {padding : 3px; background-color: #6a696b; margin-bottom: 3px;color : white;}
-button {font-size: 18px ; height : 26px ; size : 100%!important}
+button {font-size: 18px ; height : 26px ; size : 100%!important ;}
 </style>
 </head>
 <body>
@@ -17,7 +18,7 @@ button {font-size: 18px ; height : 26px ; size : 100%!important}
   <p>Le texte ainsi formé aura encore quelques "trous". Il faudra déduire quels sont ces caractères inconnus.</p>
   <p>le bouton "scramble" permet de faire "rouler" aléatoirement les bandes, mais ne change pas les lettres de ces bandes ou leur position au sein de celles-ci.</p>
   <p>Premier texte à trouver : un titre et un auteur (en anglais et sans espaces)(format:TITLEAUTHOR)</p>
-  <button> &#8249;&nbsp; </button>
+  <button id="test"> &#8249;&nbsp; </button>
 
   <p class="resultzone" id="result0"></p>
   <button onclick="loopBackwards(0)"> &#8249;&nbsp; </button> <span id="str0"></span> <button onclick="loopForwards(0)"> &nbsp;&#8250; </button><br/>
